@@ -1,0 +1,13 @@
+{
+  "include": ["src/**/*.ts", "src/injection/styles/global.tsx"],
+  "compilerOptions": {
+    "target": "ES5",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "@emotion/react",
+    "lib": ["ES6", "DOM"],
+    "types": ["cypress", "chrome"]
+  }
+}
